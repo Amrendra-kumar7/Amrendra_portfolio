@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Projects</title>
+  
+   
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  /* Style for the fixed header */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+
+
+.content {
+    padding-top: 80px; /* Adjust the value to match the height of your header */
+}
+
+.project {
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+.project h2 {
+    margin-bottom: 0.5rem;
+}
+
+.project a {
+    display: block;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style for the floating button */
+.back-to-website {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.back-to-website a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <div class="back-to-website" id="backToWebsiteButton">
+        <a href="/">Back to My Website</a>
+    </div>
+
+    
+   
+    <header>
+        <h1>Data Science Projects Showcase</h1>
+    </header>
+     <div class="content">
+         <section class="project">
+        <h2>Project 1: Example Project</h2>
+        <p>Description of Example Project.</p>
+        <a href="https://github.com/yourusername/project1" target="_blank">GitHub Repository</a>
+        <a href="path_to_jupyter_notebook1.pdf" target="_blank">Jupyter Notebook PDF</a>
+    </section>
+
+    <section class="project">
+        <h2>Project 2: Another Example Project</h2>
+        <p>Description of Another Example Project.</p>
+        <a href="https://github.com/yourusername/project2" target="_blank">GitHub Repository</a>
+        <a href="path_to_jupyter_notebook2.pdf" target="_blank">Jupyter Notebook PDF</a>
+    </section>
+
+     <section class="project">
+        <h2>Project 1: Example Project</h2>
+        <p>Description of Example Project.</p>
+        <a href="https://github.com/yourusername/project1" target="_blank">GitHub Repository</a>
+        <a href="path_to_jupyter_notebook1.pdf" target="_blank">Jupyter Notebook PDF</a>
+    </section>
+
+    <section class="project">
+        <h2>Project 2: Another Example Project</h2>
+        <p>Description of Another Example Project.</p>
+        <a href="https://github.com/yourusername/project2" target="_blank">GitHub Repository</a>
+        <a href="path_to_jupyter_notebook2.pdf" target="_blank">Jupyter Notebook PDF</a>
+    </section>
+
+     <section class="project">
+        <h2>Project 1: Example Project</h2>
+        <p>Description of Example Project.</p>
+        <a href="https://github.com/yourusername/project1" target="_blank">GitHub Repository</a>
+        <a href="path_to_jupyter_notebook1.pdf" target="_blank">Jupyter Notebook PDF</a>
+    </section>
+
+    <section class="project">
+        <h2>Project 2: Another Example Project</h2>
+        <p>Description of Another Example Project.</p>
+        <a href="https://github.com/yourusername/project2" target="_blank">GitHub Repository</a>
+        <a href="path_to_jupyter_notebook2.pdf" target="_blank">Jupyter Notebook PDF</a>
+    </section>
+     </div>
+    
+    <!-- Add more projects as needed -->
+
+   
+    <script>
+// Show/hide the button based on scroll position
+window.addEventListener('scroll', function() {
+    var button = document.getElementById('backToWebsiteButton');
+    if (window.scrollY > 200) { // Adjust the scroll position at which the button appears
+        button.style.display = 'block';
+    } else {
+        button.style.display = 'none';
+    }
+});
+
+    </script>
+</body>
+
+</html>
