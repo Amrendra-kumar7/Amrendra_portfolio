@@ -33,6 +33,11 @@ app.get("/data", (req, res) =>{
 app.get("/resume", (req, res) =>{
     res.render("resume")
 });
+
+app.get("/program", (req, res) =>{
+    res.render("program")
+});
+
 app.get("/read", (req, res) =>{
     res.render("read")
 });
