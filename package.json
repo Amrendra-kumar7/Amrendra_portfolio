@@ -4,9 +4,7 @@
   "description": "",
   "main": "./src/app.js",
   "scripts": {
-    "start":"NODE_ENV=development ./node_modules/.bin/netlify-lambda serve src",
-    "test": "mocha",
-    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda serve src"
+    "test": "mocha.test.js"
   },
   "keywords": [],
   "author": "",
@@ -14,13 +12,13 @@
   "dependencies": {
     "express": "^4.18.2",
     "express-rate-limit": "^7.1.5",
-    "hbs": "4.2.0",
+    "hbs": "^4.2.0",
     "mongoose": "^7.5.4",
     "netlify-lambda": "^2.0.16",
     "nodemon": "^3.0.1",
     "validator": "^13.11.0"
   },
   "devDependencies": {
-    "mocha": "^10.2.0"
+    "mocha": "^10.3.0"
   }
 }
