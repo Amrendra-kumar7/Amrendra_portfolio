@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // Connect to MongoDB
-mongoose.connect("mongodb://127.0.0.1:27017/amrendra?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.0.1", {
+mongoose.connect("mongodb+srv://amrendra001122:eKcC4JxHcW9KoXY6@cluster0.gomjb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
