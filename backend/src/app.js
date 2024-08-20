@@ -11,8 +11,8 @@ require("./db/connect");
 const Contact = require("./models/contact");
 const port = process.env.PORT || 8000;
 
-const static_path = path.join(__dirname, "../public");
-const template_path = path.join(__dirname, "../templates/views");
+const static_path = path.join(__dirname, "../../frontend/public");
+const template_path = path.join(__dirname, "../../frontend/templates/views");
 //..const partials_path = path.join(__dirname, "../templates/partials");
 
 app.use(express.static(static_path));
