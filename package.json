@@ -4,9 +4,7 @@
   "description": "",
   "main": "./src/app.js",
   "scripts": {
-  "start": "node backend/src/app.js"
-}
-,
+    "start": "node backend/src/app.js",
     "test": "mocha ./test/mocha.test.js"
   },
   "keywords": [],
@@ -25,4 +23,3 @@
     "mocha": "^10.3.0"
   }
 }
-
